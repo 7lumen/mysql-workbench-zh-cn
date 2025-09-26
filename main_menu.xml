@@ -12,6 +12,7 @@
                 <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.file.new1">
                     <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.file</link>
                     <value type="string" key="accessibilityName">New Document</value>
+                    <value type="string" key="caption">新建文档</value>
                     <value type="string" key="name">new_document</value>
                     <value type="string" key="command">plugin:wb.file.newDocument</value>
                     <value type="string" key="itemType">action</value>
@@ -20,7 +21,7 @@
                 <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.file.file_new">
                     <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.file</link>
                     <value type="string" key="accessibilityName">New Query Tab</value>
-                    <value type="string" key="caption">_新建查询选项卡...</value>
+                    <value type="string" key="caption">_新建查询标签...</value>
                     <value type="string" key="context">home</value>
                     <value type="string" key="name">new_query_tab</value>
                     <value type="string" key="command">builtin:query.newQueryNoconnection</value>
@@ -32,7 +33,7 @@
                     <value type="string" key="accessibilityName">New Query Tab</value>
                     <value type="string" key="name">query.newFile</value>
                     <value type="string" key="context">*query</value>
-                    <value type="string" key="caption">新建查询选项卡</value>
+                    <value type="string" key="caption">新建查询标签</value>
                     <value type="string" key="itemType">action</value>
                     <value type="string" key="shortcut">Modifier+T</value>
                     <value type="string" key="command">builtin:query.newFile</value>
@@ -49,7 +50,7 @@
                 <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.file.include">
                     <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.file</link>
                     <value type="string" key="accessibilityName">Include Model</value>
-                    <value type="string" key="caption">_Include Model...</value>
+                    <value type="string" key="caption">_包含模型...</value>
                     <value type="string" key="context">*model</value>
                     <value type="string" key="name">include_model</value>
                     <value type="string" key="command">plugin:wb.mysql.includeModel</value>
@@ -68,7 +69,7 @@
                 <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.file.open_script_into">
                     <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.file</link>
                     <value type="string" key="accessibilityName">Open SQL Script</value>
-                    <value type="string" key="caption">__打开SQL脚本...</value>
+                    <value type="string" key="caption">_打开SQL脚本...</value>
                     <value type="string" key="context">*query</value>
                     <value type="string" key="name">open_script_into</value>
                     <value type="string" key="command">builtin:query.openFile</value>
@@ -89,7 +90,7 @@
                 <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.file.run_script">
                     <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.file</link>
                     <value type="string" key="accessibilityName">Run SQL Script</value>
-                    <value type="string" key="caption">_运行 SQL...</value>
+                    <value type="string" key="caption">_运行SQL脚本...</value>
                     <value type="string" key="context">*query</value>
                     <value type="string" key="name">run_script</value>
                     <value type="string" key="command">plugin:wb.sqlide.runScript</value>
@@ -104,7 +105,7 @@
                     <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.file</link>
                     <value type="string" key="accessibilityName">Close Connection Tab</value>
                     <value type="string" key="name">closetab</value>
-                    <value type="string" key="caption">_关闭连接选项卡</value>
+                    <value type="string" key="caption">_关闭连接标签</value>
                     <value type="string" key="context">*query</value>
                     <value type="string" key="itemType">action</value>
                     <value type="string" key="command">builtin:close_tab</value>
@@ -115,7 +116,7 @@
                     <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.file</link>
                     <value type="string" key="accessibilityName">Close Connection Tab</value>
                     <value type="string" key="name">closetab</value>
-                    <value type="string" key="caption">_关闭连接选项卡</value>
+                    <value type="string" key="caption">_关闭连接标签</value>
                     <value type="string" key="context">*query</value>
                     <value type="string" key="itemType">action</value>
                     <value type="string" key="command">builtin:close_tab</value>
@@ -126,7 +127,7 @@
                     <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.file</link>
                     <value type="string" key="accessibilityName">Close Tab</value>
                     <value type="string" key="name">closetab</value>
-                    <value type="string" key="caption">_关闭选项卡</value>
+                    <value type="string" key="caption">_关闭标签</value>
                     <value type="string" key="itemType">action</value>
                     <value type="string" key="command">builtin:closetab</value>
                     <value type="string" key="shortcut">Modifier+W</value>
@@ -135,7 +136,7 @@
                     <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.file</link>
                     <value type="string" key="accessibilityName">Close Tab</value>
                     <value type="string" key="name">closeeditor</value>
-                    <value type="string" key="caption">_关闭选项卡</value>
+                    <value type="string" key="caption">_关闭标签</value>
                     <value type="string" key="context">*query</value>
                     <value type="string" key="itemType">action</value>
                     <value type="string" key="command">builtin:close_editor</value>
@@ -175,7 +176,7 @@
                     <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.file</link>
                     <value type="string" key="accessibilityName">Save Model As</value>
                     <value type="string" key="context">*model</value>
-                    <value type="string" key="caption">Model 另存为...</value>
+                    <value type="string" key="caption">另存模型 _为...</value>
                     <value type="string" key="name">save_document_as</value>
                     <value type="string" key="command">plugin:wb.file.saveModelAs</value>
                     <value type="string" key="itemType">action</value>
@@ -185,7 +186,7 @@
                     <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.file</link>
                     <value type="string" key="accessibilityName">Save Script As</value>
                     <value type="string" key="context">*query</value>
-                    <value type="string" key="caption">Script 另存为...</value>
+                    <value type="string" key="caption">另存脚本 _为...</value>
                     <value type="string" key="name">save_sql_as</value>
                     <value type="string" key="command">builtin:query.saveFileAs</value>
                     <value type="string" key="itemType">action</value>
@@ -195,7 +196,7 @@
                     <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.file</link>
                     <value type="string" key="accessibilityName">Revert to Saved</value>
                     <value type="string" key="context">*query</value>
-                    <value type="string" key="caption">回滚并保存</value>
+                    <value type="string" key="caption">撤销保存</value>
                     <value type="string" key="name">revert_sql</value>
                     <value type="string" key="command">builtin:query.revert</value>
                     <value type="string" key="itemType">action</value>
@@ -222,8 +223,8 @@
                         <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.file.import.mysql.sql">
                             <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.file.import</link>
                             <value type="string" key="accessibilityName">Import</value>
-                            <value type="string" key="caption">MySQL逆向工程导入脚本...</value>
-                            <value type="string" key="name">mysql_import_sql</value>
+                            <value type="string" key="caption">逆向工程MySQL创建脚本...</value>
+                            <value type="string" key="name">mysql_导入_sql</value>
                             <value type="string" key="command">plugin:db.mysql.plugin.import.sql</value>
                             <value type="string" key="itemType">action</value>
                         </value>
@@ -245,7 +246,7 @@
                             <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.file.export</link>
                             <value type="string" key="accessibilityName">Export SQL Script</value>
                             <value type="string" key="name">export_sql_script</value>
-                            <value type="string" key="caption">导出SQL创建脚本...</value>
+                            <value type="string" key="caption">正向工程SQL创建脚本...</value>
                             <value type="string" key="command">plugin:db.mysql.plugin.export.sql</value>
                             <value type="string" key="itemType">action</value>
                             <value type="string" key="shortcut">Modifier+Shift+G</value>
@@ -459,7 +460,7 @@
                     <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.edit</link>
                     <value type="string" key="accessibilityName">Remove Figure</value>
                     <value type="string" key="context">model</value>
-                    <value type="string" key="caption">Remove Figure</value>
+                    <value type="string" key="caption">删除图形</value>
                     <value type="string" key="name">remove</value>
                     <value type="string" key="command">builtin:removeFigure</value>
                     <value type="string" key="itemType">action</value>
@@ -470,7 +471,7 @@
                     <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.edit</link>
                     <value type="string" key="accessibilityName">Remove Figure</value>
                     <value type="string" key="context">model</value>
-                    <value type="string" key="caption">Remove Figure</value>
+                    <value type="string" key="caption">删除图形</value>
                     <value type="string" key="name">remove</value>
                     <value type="string" key="command">builtin:removeFigure</value>
                     <value type="string" key="itemType">action</value>
@@ -547,7 +548,7 @@
                             <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.edit.select</link>
                             <value type="string" key="accessibilityName">Select All</value>
                             <value type="string" key="name">selectAll</value>
-                            <value type="string" key="caption">选择所有</value>
+                            <value type="string" key="caption">全选</value>
                             <!-- needs special handling for select All in text boxes value type="string" key="command">plugin:wb.edit.selectAll</value-->
                             <value type="string" key="command">builtin:selectAll</value>
                             <value type="string" key="itemType">action</value>
@@ -556,7 +557,7 @@
                         <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.edit.select_similar">
                             <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.edit.select</link>
                             <value type="string" key="accessibilityName">Similar Figures</value>
-                            <value type="string" key="caption">Similar Figures</value>
+                            <value type="string" key="caption">相似图形</value>
                             <value type="string" key="name">wb.edit.selectSimilar</value>
                             <value type="string" key="command">plugin:wb.edit.selectSimilar</value>
                             <value type="string" key="itemType">action</value>
@@ -564,7 +565,7 @@
                         <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.edit.select_connected">
                             <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.edit.select</link>
                             <value type="string" key="accessibilityName">Connected Figures</value>
-                            <value type="string" key="caption">Connected Figures</value>
+                            <value type="string" key="caption">连接的图形</value>
                             <value type="string" key="name">wb.edit.selectConnected</value>
                             <value type="string" key="command">plugin:wb.edit.selectConnected</value>
                             <value type="string" key="itemType">action</value>
@@ -575,7 +576,7 @@
                     <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.edit</link>
                     <value type="string" key="accessibilityName">Select All</value>
                     <value type="string" key="name">select</value>
-                    <value type="string" key="caption">选择所有</value>
+                    <value type="string" key="caption">全选</value>
                     <!-- needs special handling for select All in text boxes value type="string" key="command">plugin:wb.edit.selectAll</value-->
                     <value type="string" key="command">builtin:selectAll</value>
                     <value type="string" key="itemType">action</value>
@@ -585,6 +586,7 @@
                     <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.edit</link>
                     <value type="string" key="accessibilityName">Go To Next Selected</value>
                     <value type="string" key="name">next_selected</value>
+                    <value type="string" key="caption">转到下一个选定项</value>
                     <value type="string" key="command">plugin:wb.edit.goToNextSelected</value>
                     <value type="string" key="itemType">action</value>
                     <value type="string" key="context">*model</value>
@@ -593,6 +595,7 @@
                     <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.edit</link>
                     <value type="string" key="accessibilityName">Go To Previous Selected</value>
                     <value type="string" key="name">previous_selected</value>
+                    <value type="string" key="caption">转到上一个选定项</value>
                     <value type="string" key="command">plugin:wb.edit.goToPreviousSelected</value>
                     <value type="string" key="itemType">action</value>
                     <value type="string" key="context">*model</value>
@@ -605,7 +608,7 @@
                     <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.edit</link>
                     <value type="string" key="accessibilityName">Select Next Placeholder</value>
                     <value type="string" key="name">jump_to_placeholder</value>
-                    <value type="string" key="caption">Select Next Placeholder</value>
+                    <value type="string" key="caption">选择下一个占位符</value>
                     <value type="string" key="command">builtin:query.jump_to_placeholder</value>
                     <value type="string" key="itemType">action</value>
                     <value type="string" key="context">*query</value>
@@ -689,7 +692,7 @@
                         <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.edit.comment">
                             <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.edit.format_menu</link>
                             <value type="string" key="accessibilityName">Toggle Comment on Selection</value>
-                            <value type="string" key="caption">取消/批量选择</value>
+                            <value type="string" key="caption">注释/注释选定内容</value>
                             <value type="string" key="name">comment</value>
                             <value type="string" key="command">plugin:wb.sqlide.comment</value>
                             <value type="string" key="itemType">action</value>
@@ -733,7 +736,7 @@
                 <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.edit.options">
                     <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.edit</link>
                     <value type="string" key="accessibilityName">Preferences</value>
-                    <value type="string" key="caption">偏好...</value>
+                    <value type="string" key="caption">首选项...</value>
                     <value type="string" key="name">options</value>
                     <value type="string" key="command">plugin:wb.form.showOptions</value>
                     <value type="string" key="itemType">action</value>
@@ -768,14 +771,14 @@
                         <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.view.sidebars.left">
                             <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.view.sidebars</link>
                             <value type="string" key="accessibilityName">Toggle Sidebar</value>
-                            <value type="string" key="caption">显示工具栏</value>
+                            <value type="string" key="caption">显示侧边栏</value>
                             <value type="string" key="name">alias.wb.toggleSidebar</value>
                             <value type="string" key="command">builtin:alias.wb.toggleSidebar</value>
                         </value>
                         <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.view.sidebars.right">
                             <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.view.sidebars</link>
                             <value type="string" key="accessibilityName">Toggle Secondary Sidebar</value>
-                            <value type="string" key="caption">显示次级工具栏</value>
+                            <value type="string" key="caption">显示辅助侧边栏</value>
                             <value type="string" key="name">alias.wb.toggleSecondarySidebar</value>
                             <value type="string" key="command">builtin:alias.wb.toggleSecondarySidebar</value>
                         </value>
@@ -995,6 +998,7 @@
                 <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.view.zoom_default">
                     <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.view</link>
                     <value type="string" key="accessibilityName">Zoom to Default</value>
+                    <value type="string" key="caption">缩放到默认</value>
                     <value type="string" key="name">zoom_default</value>
                     <value type="string" key="command">plugin:wb.view.zoomDefault</value>
                     <value type="string" key="itemType">action</value>
@@ -1004,6 +1008,7 @@
                 <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.view.zoom_in">
                     <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.view</link>
                     <value type="string" key="accessibilityName">Zoom In</value>
+                    <value type="string" key="caption">放大</value>
                     <value type="string" key="name">zoom_in</value>
                     <value type="string" key="command">plugin:wb.view.zoomIn</value>
                     <value type="string" key="itemType">action</value>
@@ -1013,6 +1018,7 @@
                 <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.view.zoom_out">
                     <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.view</link>
                     <value type="string" key="accessibilityName">Zoom Out</value>
+                    <value type="string" key="caption">缩小</value>
                     <value type="string" key="name">zoom_out</value>
                     <value type="string" key="command">plugin:wb.view.zoomOut</value>
                     <value type="string" key="itemType">action</value>
@@ -1403,6 +1409,7 @@
                 <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.view.grid">
                     <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.view</link>
                     <value type="string" key="accessibilityName">Toggle Grid</value>
+                    <value type="string" key="caption">切换网格</value>
                     <value type="string" key="name">grid_toggle</value>
                     <value type="string" key="context">*model</value>
                     <value type="string" key="command">plugin:wb.edit.toggleGrid</value>
@@ -1411,6 +1418,7 @@
                 <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.view.pagegrid">
                     <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.view</link>
                     <value type="string" key="accessibilityName">Toggle Page Grid</value>
+                    <value type="string" key="caption">切换页面网格</value>
                     <value type="string" key="name">page_grid_toggle</value>
                     <value type="string" key="context">*model</value>
                     <value type="string" key="command">plugin:wb.edit.togglePageGrid</value>
@@ -1431,6 +1439,7 @@
                     <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.arrange</link>
                     <value type="string" key="accessibilityName">Align</value>
                     <value type="string" key="name">grid_align</value>
+                    <value type="string" key="caption">对齐</value>
                     <value type="string" key="command">plugin:wb.edit.toggleGridAlign</value>
                     <value type="string" key="itemType">check</value>
                 </value>
@@ -1442,6 +1451,7 @@
                     <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.arrange</link>
                     <value type="string" key="accessibilityName">Raise Selection</value>
                     <value type="string" key="name">raise_selection</value>
+                    <value type="string" key="caption">提升选择</value>
                     <value type="string" key="command">plugin:wb.edit.raiseSelection</value>
                     <value type="string" key="itemType">action</value>
                     <value type="string" key="shortcut">Modifier+Shift+F</value>
@@ -1450,6 +1460,7 @@
                     <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.arrange</link>
                     <value type="string" key="accessibilityName">Lower Selection</value>
                     <value type="string" key="name">lower_selection</value>
+                    <value type="string" key="caption">下拉选择</value>
                     <value type="string" key="command">plugin:wb.edit.lowerSelection</value>
                     <value type="string" key="itemType">action</value>
                     <value type="string" key="shortcut">Modifier+Shift+B</value>
@@ -1462,6 +1473,7 @@
                     <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.arrange</link>
                     <value type="string" key="accessibilityName">Center</value>
                     <value type="string" key="name">center</value>
+                    <value type="string" key="caption">中心</value>
                     <value type="string" key="command">plugin:wb.model.center</value>
                     <value type="string" key="itemType">action</value>
                 </value>
@@ -1480,6 +1492,7 @@
                 <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.arrange.fit">
                     <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.arrange</link>
                     <value type="string" key="accessibilityName">Fit Objects</value>
+                    <value type="string" key="caption">适合的对象</value>
                     <value type="string" key="name">fitObjects</value>
                     <value type="string" key="command">plugin:wb.model.fitObjectsToContents</value>
                     <value type="string" key="itemType">action</value>
@@ -1797,7 +1810,7 @@
                 <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.query.exec">
                     <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.query</link>
                     <value type="string" key="accessibilityName">Execute All or Selection</value>
-                    <value type="string" key="caption">执行 (All or Selection)</value>
+                    <value type="string" key="caption">执行（全部或选定）</value>
                     <value type="string" key="name">query.execute</value>
                     <value type="string" key="command">builtin:query.execute</value>
                     <value type="string" key="itemType">action</value>
@@ -1806,7 +1819,7 @@
                 <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.query.exec_to_text">
                     <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.query</link>
                     <value type="string" key="accessibilityName">Execute to Text</value>
-                    <value type="string" key="caption">执行 (All or Selection) to Text</value>
+                    <value type="string" key="caption">执行（全部或选定）为文本</value>
                     <value type="string" key="name">wb.sqlide.executeToTextOutput</value>
                     <value type="string" key="command">plugin:wb.sqlide.executeToTextOutput</value>
                     <value type="string" key="itemType">action</value>
@@ -1834,7 +1847,7 @@
                 <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.query.vertical_EditorBox">
                     <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.query</link>
                     <value type="string" key="accessibilityName">Execute Current Statement to Text Output</value>
-                    <value type="string" key="caption">执行当前语句 (Vertical Text Output)</value>
+                    <value type="string" key="caption">执行当前语句（垂直文本输出）</value>
                     <value type="string" key="name">query.vertical_EditorBox</value>
                     <value type="string" key="command">plugin:wb.sqlide.verticalOutput</value>
                     <value type="string" key="itemType">action</value>
@@ -1869,7 +1882,7 @@
                 <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.query.stop_on_error">
                     <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.query</link>
                     <value type="string" key="accessibilityName">Stop Script Execution on Errors</value>
-                    <value type="string" key="caption">错误时停止脚本执行</value>
+                    <value type="string" key="caption">在错误时停止脚本执行</value>
                     <value type="string" key="name">query.continueOnError</value>
                     <value type="string" key="command">builtin:query.continueOnError</value>
                     <value type="string" key="itemType">check</value>
@@ -1883,13 +1896,14 @@
                     <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.file</link>
                     <value type="string" key="accessibilityName">Limit Rows</value>
                     <value type="string" key="name">limit_rows</value>
-                    <value type="string" key="caption">行数限制</value>
+                    <value type="string" key="caption">限制行数</value>
                     <value type="string" key="itemType">cascade</value>
                 </value>
                 <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.query.gather_ps_info">
                     <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.file</link>
                     <value type="string" key="accessibilityName">Collect Performance Schema Statistics</value>
                     <value type="string" key="name">query.gatherPSInfo</value>
+                    <value type="string" key="caption">收集性能模式统计信息</value>
                     <value type="string" key="caption">Collect Performance Schema Stats</value>
                     <value type="string" key="command">builtin:query.gatherPSInfo</value>
                     <value type="string" key="itemType">check</value>
@@ -1901,7 +1915,7 @@
                 <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.query.reconnect">
                     <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.query</link>
                     <value type="string" key="accessibilityName">Reconnect to Server</value>
-                    <value type="string" key="caption">_重连服务</value>
+                    <value type="string" key="caption">_重新连接到服务器</value>
                     <value type="string" key="name">query.reconnect</value>
                     <value type="string" key="command">builtin:query.reconnect</value>
                     <value type="string" key="itemType">action</value>
@@ -1909,7 +1923,7 @@
                 <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.query.new_tab">
                     <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.query</link>
                     <value type="string" key="accessibilityName">New Tab to Current Server</value>
-                    <value type="string" key="caption">_在新标签打开当前服务</value>
+                    <value type="string" key="caption">_新标签到当前服务器</value>
                     <value type="string" key="name">query.newtab</value>
                     <value type="string" key="command">builtin:query.new_connection</value>
                     <value type="string" key="itemType">action</value>
@@ -1940,7 +1954,7 @@
                 <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.query.rollback">
                     <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.query</link>
                     <value type="string" key="accessibilityName">Rollback Transaction</value>
-                    <value type="string" key="caption">_回滚</value>
+                    <value type="string" key="caption">_回滚事务</value>
                     <value type="string" key="name">query.rollback</value>
                     <value type="string" key="command">builtin:query.rollback</value>
                     <value type="string" key="itemType">action</value>
@@ -2230,7 +2244,7 @@
                 <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.server.pf.reports">
                     <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.server</link>
                     <value type="string" key="accessibilityName">Performance Reports</value>
-                    <value type="string" key="caption">性能报表</value>
+                    <value type="string" key="caption">性能报告</value>
                     <value type="string" key="name">admin_performance_reports</value>
                     <value type="string" key="command">plugin:wb.admin.open_into:admin_performance_reports</value>
                     <value type="string" key="itemType">action</value>
@@ -2238,7 +2252,7 @@
                 <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.server.pf.reports.setup">
                     <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.server</link>
                     <value type="string" key="accessibilityName">Performance Schema Setup</value>
-                    <value type="string" key="caption">性能结构设置</value>
+                    <value type="string" key="caption">性能模式设置</value>
                     <value type="string" key="name">admin_instrumentation_setup</value>
                     <value type="string" key="command">plugin:wb.admin.open_into:admin_instrumentation_setup</value>
                     <value type="string" key="itemType">action</value>
@@ -2423,6 +2437,7 @@
                 <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.tools.pluginmanager">
                     <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.tools</link>
                     <value type="string" key="accessibilityName">Plugin Manager</value>
+                    <value type="string" key="caption">插件管理器</value>
                     <value type="string" key="name">plugin_manager</value>
                     <value type="string" key="command">plugin:wb.form.showPluginManager</value>
                     <value type="string" key="itemType">action</value>
@@ -2520,7 +2535,7 @@
                 <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.help.report_a_bug">
                     <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.help</link>
                     <value type="string" key="accessibilityName">Report a Bug</value>
-                    <value type="string" key="caption">错误报告</value>
+                    <value type="string" key="caption">报告错误</value>
                     <value type="string" key="name">report_a_bug</value>
                     <value type="string" key="command">plugin:wb.form.reportBug:from_menu</value>
                     <value type="string" key="itemType">action</value>
